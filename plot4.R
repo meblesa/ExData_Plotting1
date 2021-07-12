@@ -5,7 +5,7 @@ Data3[,1]<-as.Date(Data3[,1],format="%d/%m/%Y")
 
 Data3[,"Date Time"]<-as.POSIXct(paste(Data3[,1],Data3[,2]), format="%Y-%m-%d %H:%M:%S")
 
-png("plot4.png")
+png("plot4.png", width = 480, height = 480)
 
 par(mfrow=c(2,2))
 
