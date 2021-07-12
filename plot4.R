@@ -1,4 +1,5 @@
 #plot 4
+#see daytascript.R which contains the data download steps to get "Data2" dataset.
 Data3<-subset(Data2,Data2$Date == "1/2/2007" |Data2$Date=="2/2/2007")
 Data3[,1]<-as.Date(Data3[,1],format="%d/%m/%Y")
 
